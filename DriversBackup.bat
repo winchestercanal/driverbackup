@@ -31,10 +31,15 @@ if "%opcao%"=="2" (
     echo.
     set /p caminho=Digite o caminho onde estao os drivers para restauracao: 
     echo.
+
     echo Iniciando a restauracao dos drivers de %caminho%...
-    dism /online /add-driver /driver:%caminho% /recurse
+    for /r "%caminho%" %%f in (*.inf) do (
+        echo Instalando driver: %%f
+        pnputil /add-driver "%%f" /install
+    )
     echo.
     echo Restauracao concluida!
+    echo visite www.youtube.com/WINchesterCanal para mais dicas!
     pause
     goto menu
 )
@@ -42,7 +47,7 @@ if "%opcao%"=="2" (
 if "%opcao%"=="3" (
     echo.
     echo Abrindo Winchester Canal no YouTube...
-    start https://youtube.com/winchestercanal
+    start https://youtu.be/ymOwOXdzHGQ
     timeout /t 3
     goto menu
 )
