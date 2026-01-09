@@ -13,3 +13,12 @@ Ao iniciar o script, digite 1 para realizar o backup! O script vai criar uma pas
 Digite 2 para restaurar seus backups! O Script irá solicitar o endereço onde estão os drivers! Insira corretamente entre aspas, e pressione enter para realizar a instalação de todos eles!
 
 Assista o [Tutorial](https://youtu.be/ymOwOXdzHGQ) para mais detalhes!
+
+-----------
+Conheça tambem meus outros repositórios:
+
+[Configurações do Komorebi
+](https://github.com/winchestercanal/komorebi-configs)
+
+[Configurações do Yasb
+](https://github.com/winchestercanal/Yasb)
