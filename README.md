@@ -1,24 +1,58 @@
+# Driver Backup – Script Automático
 
-
-Esse script foi projetado pelo [Canal WINchester](https://www.youtube.com/WINchesterCanal) para facilitar o backup e restauração dos drivers do Windows!!
-
-Acesse a sessão [Release](https://github.com/winchestercanal/driverbackup/releases) para baixar!
+Este script foi projetado pelo [Canal WINchester](https://www.youtube.com/WINchesterCanal) para facilitar o backup e restauração dos drivers do Windows de forma simples e automática.
 
 ---
-**IMPORTANTE**: Execute sempre como Administrador!!
+
+## 📥 Download do script
+
+Faça o download do script diretamente aqui:
+
+**[📄 DriversBackup.bat](https://github.com/winchestercanal/driverbackup/blob/main/DriversBackup.bat)**
+
+> ⚠️ **IMPORTANTE:** Execute sempre como Administrador!
+
 ---
 
-Ao iniciar o script, digite 1 para realizar o backup! O script vai criar uma pasta em `C:/DriverBackup` com todos os seus drivers!
+## 🚀 Como usar
 
-Digite 2 para restaurar seus backups! O Script irá solicitar o endereço onde estão os drivers! Insira corretamente entre aspas, e pressione enter para realizar a instalação de todos eles!
+### 1️⃣ Realizar Backup
 
-Assista o [Tutorial](https://youtu.be/ymOwOXdzHGQ) para mais detalhes!
+Ao iniciar o script, digite **`1`** para realizar o backup.
 
------------
-Conheça tambem meus outros repositórios:
+O script irá criar uma pasta em:
+```plaintext
+C:\DriverBackup
+```
 
-[Configurações do Komorebi
-](https://github.com/winchestercanal/komorebi-configs)
+Todos os seus drivers serão salvos nesta pasta!
 
-[Configurações do Yasb
-](https://github.com/winchestercanal/Yasb)
+### 2️⃣ Restaurar Backup
+
+Digite **`2`** para restaurar seus backups.
+
+O script solicitará o endereço onde estão os drivers. Insira o caminho corretamente **entre aspas** e pressione **Enter** para realizar a instalação de todos eles.
+
+**Exemplo:**
+```plaintext
+"C:\DriverBackup"
+```
+
+---
+
+## 🎥 Tutorial completo
+
+Para entender como tudo funciona na prática, assista ao tutorial:
+
+**[▶️ Assistir no YouTube](https://youtu.be/ymOwOXdzHGQ)**
+
+---
+
+## 🔗 Outros repositórios que você pode gostar
+
+- 🪟 [Configurações do Komorebi](https://github.com/winchestercanal/komorebi-configs)
+- 🎨 [Configurações do YASB](https://github.com/winchestercanal/Yasb)
+
+---
+
+Se este repositório te ajudou, considere deixar uma ⭐ no GitHub!
